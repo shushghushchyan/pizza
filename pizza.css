@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body {
+    background:#FED97A;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.parentLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.parHiderBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    gap: 5px;
+    background:#FE5F1E;
+    color: #FFF;
+}
+
+.blockFilter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.typs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.typs > li {
+    padding: 12px 16px;
+    border-radius: 30px;
+}
+.typs > li:hover{
+    background-color: black;
+    color:white;
+}
+
+#containerForAllPizza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:60px;
+    gap: 40px;
+}
+#ulHide {
+    color: #FE5F1E;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.21px;
+    margin-left:110px;
+    display:none;
+
+}
+#ulHide > li:hover{
+    background: #FE5F1E;
+    color:white;
+}
+.pizaImg{
+    width: 259.122px;
+    height: 260px;
+}
+.minBlTitle{
+color: #000;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+.footerPizaBlock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:36px;
+}
+.price{
+color: #000;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+.addpizza{
+    width: 155px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #EB5A1E;
+    background: #FFF;   
+}
+.countDiv{
+    width: 22px;
+    height: 22px;
+
+}
+.blockConfigPizza{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+}
+.confTyps{
+    display:flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.disabled {
+    pointer-events:none; 
+    opacity:0.6;         
+}
+.confSize{
+    display:flex;
+    justify-content: space-around;
+}
